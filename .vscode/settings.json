@@ -13,5 +13,8 @@
         "C:/MinGW/lib/gcc/mingw32/6.3.0/include",
         "C:/MinGW/include",
         "C:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed"
+    ],
+    "clangd.arguments": [
+        "--query-driver=C:\\MinGW\\bin\\g++.exe"
     ]
 }
