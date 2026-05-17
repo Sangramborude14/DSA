@@ -1,0 +1,35 @@
+{
+    "C++ Boilerplate": {
+        "scope": "cpp",
+        "prefix": "cpp",
+        "body": [
+            "#include <iostream>",
+            "#include <string>",
+            "using namespace std;",
+            "",
+            "int main() {",
+            "    $0",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Basic C++ framework boilerplate"
+    },
+    "C++ Competitive Programming": {
+        "scope": "cpp",
+        "prefix": "cpp-cp",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "",
+            "int main() {",
+            "    // Fast I/O for speed",
+            "    ios_base::sync_with_stdio(false);",
+            "    cin.tie(NULL);",
+            "",
+            "    $0",
+            "    return 0;",
+            "}"
+        ],
+        "description": "C++ Competitive Programming framework with bits/stdc++.h and Fast I/O"
+    }
+}

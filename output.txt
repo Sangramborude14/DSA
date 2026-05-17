@@ -1,4 +1,11 @@
-11
-0
-1
-7
+--- Standard Array Elements ---
+volvo
+mercedes
+BMW
+Ford
+
+--- Dynamic Vector Elements ---
+volvo
+BMW
+Ford
+Tesla
