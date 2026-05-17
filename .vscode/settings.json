@@ -1,0 +1,17 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "cmd /c \"cd /d $dir && g++ -std=c++17 $fileName -o %temp%\\\\$fileNameWithoutExt.exe && %temp%\\\\$fileNameWithoutExt.exe < input.txt > output.txt && del %temp%\\\\$fileNameWithoutExt.exe\""
+    },
+    "C_Cpp.codeAnalysis.clangTidy.enabled": false,
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++",
+        "C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32",
+        "C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward",
+        "C:/MinGW/lib/gcc/mingw32/6.3.0/include",
+        "C:/MinGW/include",
+        "C:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed"
+    ]
+}

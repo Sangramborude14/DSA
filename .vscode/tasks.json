@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compile and Run C++ (Input/Output)",
+			"type": "shell",
+			"command": "g++ -std=c++17 \"${file}\" -o \"%temp%\\${fileBasenameNoExtension}.exe\" && \"%temp%\\${fileBasenameNoExtension}.exe\" < \"${fileDirname}\\input.txt\" > \"${fileDirname}\\output.txt\" && del \"%temp%\\${fileBasenameNoExtension}.exe\"",
+			"options": {
+				"shell": {
+					"executable": "cmd.exe",
+					"args": ["/c"]
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared",
+				"focus": false,
+				"clear": true
+			},
+			"detail": "Compiles active file, uses input.txt/output.txt, and removes the .exe"
+		}
+	]
+}
