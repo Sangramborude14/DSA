@@ -1,1 +1,2 @@
-Element found at: 2
+no of apples are: 3
+is there banana in hashmap1 ?? 1
