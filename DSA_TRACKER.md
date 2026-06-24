@@ -3,8 +3,8 @@
 Keep track of your daily DSA journey here. A new question will be suggested every day at 8:00 PM!
 
 ## 📊 Summary
-- **Total Solved:** 16
-- **Easy:** 13
+- **Total Solved:** 17
+- **Easy:** 14
 - **Medium:** 3
 - **Hard:** 0
 
@@ -14,6 +14,7 @@ Keep track of your daily DSA journey here. A new question will be suggested ever
 
 | # | Problem | Difficulty | Date Completed | Topic | File |
 |---|---------|------------|----------------|-------|------|
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | 2026-06-24 | Binary Search | [35.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/35.cpp) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | 2026-06-22 | Linked List | [141.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/141.cpp) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | 2026-06-21 | Two Pointers | [125.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/125.cpp) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Pre-tracked | Sliding Window | [#121.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/%23121.cpp) |
