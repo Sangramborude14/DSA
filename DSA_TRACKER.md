@@ -3,9 +3,9 @@
 Keep track of your daily DSA journey here. A new question will be suggested every day at 8:00 PM!
 
 ## 📊 Summary
-- **Total Solved:** 17
-- **Easy:** 14
-- **Medium:** 3
+- **Total Solved:** 19
+- **Easy:** 15
+- **Medium:** 4
 - **Hard:** 0
 
 ---
@@ -14,6 +14,8 @@ Keep track of your daily DSA journey here. A new question will be suggested ever
 
 | # | Problem | Difficulty | Date Completed | Topic | File |
 |---|---------|------------|----------------|-------|------|
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | 2026-06-28 | Two Pointers | [344.cpp](file:///c:/Users/Administrator/Documents/Coding/DSA/344.cpp) |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | 2026-06-28 | Binary Tree | [102.cpp](file:///c:/Users/Administrator/Documents/Coding/DSA/102.cpp) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | 2026-06-24 | Binary Search | [35.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/35.cpp) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | 2026-06-22 | Linked List | [141.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/141.cpp) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | 2026-06-21 | Two Pointers | [125.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/125.cpp) |
@@ -31,4 +33,4 @@ Keep track of your daily DSA journey here. A new question will be suggested ever
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | Easy | Pre-tracked | Queue | [933.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/933.cpp) |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | Pre-tracked | Two Pointers | [#11.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/%2311.cpp) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Pre-tracked | Sliding Window | [3.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/3.cpp) |
-| 1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | Medium | Pre-tracked | Sliding Window | [1423.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/1423.cpp) |
+| 1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | Medium | Pre-tracked | Sliding Window | [1423.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/1423.cpp) | |

@@ -14,16 +14,11 @@ public:
 };
 
  void deleteNode(Node* node) {
-        
-    while(node->next != nullptr){
-        node->data = node->next->data;
-        node = node->next;
-        if(node->next == nullptr){
-          node = nullptr;
-        }
-    }
+  node->val = node->next->val;// copy the value of next node into current
+  node->next = node->next->next; //skip the next node and directly point from current to next->next
     }
 
+  
 int main() {
     
     return 0;
