@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 class Node {
@@ -11,14 +12,7 @@ public:
     this->data = new_data;
     this->next = nullptr;
   }
-}; 
-
-void deleteNode(Node* node) {
-   while(node->next != nullptr){
-    node->data = node->next->data;
-    node = node->next;
-   }
-    }
+};
 
 int main() {
     
