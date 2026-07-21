@@ -31,6 +31,6 @@ TreeNode* invertTree(TreeNode* root){
  int main() {
     int root[7] = [4,2,7,1,3,6,9];
     invertTree(root);
-
+    
      return 0;
  }
