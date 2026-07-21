@@ -15,20 +15,17 @@ public:
 };
 
 ListNode* middleNode(ListNode* head) {
-
    ListNode* fast = head;
    ListNode* slow = head;
    
-   while(fast->next != nullptr || fast != nullptr){
-    slow = slow->next;
-    fast = fast->next->next;
+   while (fast != nullptr && fast->next != nullptr) {
+       slow = slow->next;
+       fast = fast->next->next;
    }
    return slow;
-
-    }
-
+}
 
 int main() {
-        
+    
     return 0;
 }

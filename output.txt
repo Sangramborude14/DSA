@@ -1,0 +1,14 @@
+traverse: 0
+unique original: 0
+new unique: 1
+traverse: 1
+traverse: 1
+unique original: 1
+new unique: 2
+traverse: 2
+unique original: 2
+new unique: 3
+traverse: 3
+unique original: 3
+new unique: 4
+5

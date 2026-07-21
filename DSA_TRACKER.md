@@ -3,9 +3,9 @@
 Keep track of your daily DSA journey here. A new question will be suggested every day at 8:00 PM!
 
 ## 📊 Summary
-- **Total Solved:** 18
-- **Easy:** 15
-- **Medium:** 3
+- **Total Solved:** 33
+- **Easy:** 27
+- **Medium:** 6
 - **Hard:** 0
 
 ---
@@ -14,6 +14,21 @@ Keep track of your daily DSA journey here. A new question will be suggested ever
 
 | # | Problem | Difficulty | Date Completed | Topic | File |
 |---|---------|------------|----------------|-------|------|
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | 2026-07-10 | Two Pointers / String | [14.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/14.cpp) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | 2026-07-04 | Hash Map | [1.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/1.cpp) |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | 2026-07-04 | Two Pointers | [26.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/26.cpp) |
+| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | 2026-07-04 | Binary Search | [74.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/74.cpp) |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | 2026-07-04 | Linked List | [83.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/83.cpp) |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | 2026-07-04 | Two Pointers | [88.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/88.cpp) |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | 2026-07-04 | Bit Manipulation | [136.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/136.cpp) |
+| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | 2026-07-04 | Two Pointers | [167.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/167.cpp) |
+| 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | Easy | 2026-07-04 | Linked List | [237.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/237.cpp) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | 2026-07-04 | Hash Map | [242.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/242.cpp) |
+| 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | 2026-07-04 | Heap (Priority Queue) | [703.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/703.cpp) |
+| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy | 2026-07-04 | DFS/BFS | [733.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/733.cpp) |
+| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | Easy | 2026-07-04 | Heap (Priority Queue) | [1046.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/1046.cpp) |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | 2026-06-28 | Two Pointers | [344.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/344.cpp) |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | 2026-06-28 | Binary Tree | [102.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/102.cpp) |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | 2026-06-25 | Binary Tree | [226.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/226.cpp) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | 2026-06-24 | Binary Search | [35.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/35.cpp) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | 2026-06-22 | Linked List | [141.cpp](file:///c:/Users/Sangram%20Borude/Documents/coding/DSA/141.cpp) |
