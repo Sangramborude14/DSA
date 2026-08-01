@@ -139,6 +139,59 @@ int longestSubstring(string s, int k){
     return ans;
 }
 
+// Level-5 Minimum window with Required Characters
+int minWindow(string s,string t){
+    unordered_map<int,char> need;
+    unordered_map<int,char> window;
+
+    for(char c : t){
+        need[c]++;
+    }
+
+    int left = 0;
+    int have = 0;
+    int needCount = need.size();
+
+    int ans = INT_MAX;
+
+
+    for(int right=0; right < left ;right++){
+        char c = s[right];
+        window[c]++;
+
+        if(need.count(c) && window[c] == need[c])
+        have++;
+
+        while(have == needCount){
+            ans = min(ans,right - left + 1);
+            char leftChar = s[left];
+            window[leftChar]--;
+
+            if(need.count(leftChar) && window[leftChar] < need[leftChar])
+            have++;
+            
+
+            left++;
+        }
+    }
+    return ans == INT_MAX ? 0 : ans;q
+}// EXPAND -> VALID -> SHRINK
+
+
+//Problems
+// Easy
+// Maximum Average Subarray I (LeetCode 643)
+// Maximum Number of Vowels in a Substring of Given Length (1456)
+// Contains Duplicate II (219)
+// Medium
+// Longest Substring Without Repeating Characters (3)
+// Longest Repeating Character Replacement (424)
+// Permutation in String (567)
+// Find All Anagrams in a String (438)
+// Fruit Into Baskets (904)
+// Longest Substring with At Most K Distinct Characters (340)
+// Minimum Window Substring (76)
+
 int main() {
     
     return 0;
