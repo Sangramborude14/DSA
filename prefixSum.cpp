@@ -39,5 +39,5 @@ int subarraySum(vector<int>& nums, int k){
         }
         mp[prefix]++;
     }
-    return count;
+    return count;   
 }

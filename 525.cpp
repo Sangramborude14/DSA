@@ -23,7 +23,7 @@ int findMaxLength(vector<int>& nums) {
     }
     return size;
     }
-
+    
 int main() {
     
     return 0;

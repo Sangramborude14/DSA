@@ -11,7 +11,6 @@ using namespace std;
     unordered_map<int,int> mp;
     int prefix = 0;
     mp[0] = 1;
-    
     for(int num :nums) {
         prefix += num;
         remainder = (prefix % k + k) % k;
