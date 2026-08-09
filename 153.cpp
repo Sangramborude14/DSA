@@ -16,7 +16,7 @@ using namespace std;
             }else{
                 high = mid;
             }
-            ans = mid;
+            ans = mid;          
         }
         return nums[ans];
     }
