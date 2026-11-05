@@ -18,13 +18,11 @@ struct TreeNode {
 void traverse(vector<vector<int>>& res, TreeNode* root,int level){
     if(root == nullptr) return;
 
-    //Add a new level
     if(res.size() <= level) res.push_back({});
 
-    //Add current nodes data
+
     res[level].push_back(root->val);
 
-    //recursion for left and right
     traverse(res,root->left,level+1);
     traverse(res,root->right,level+1);
 }
